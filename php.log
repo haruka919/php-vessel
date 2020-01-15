@@ -1,0 +1,987 @@
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：セッション変数：t83i5eurtmmbhet71n1j8gtjpj
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565275700
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:48:20 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:48:20 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function phpspecialchars() in /Applications/MAMP/htdocs/vessel04/function.php:773
+Stack trace:
+#0 /Applications/MAMP/htdocs/vessel04/index.php(66): sanitize('uploads/glass16...')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/vessel04/function.php on line 773
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：セッション変数：h4hn5kt47fprs1idq6lntb60bj
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565275788
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:49:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：セッション変数：8v38ci8jq29drfe6djkmrasuou
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565275794
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:49:54 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：セッション変数：u8evgfoqano0u2farm0ta6fl21
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565275962
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：セッション変数：6b06u8dah5c74iqo2d3kahuj0k
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565275962
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:52:42 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：セッション変数：djo7e4po96nk0g8ca56ta1oq6o
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565275969
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:52:49 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：セッション変数：k72o10315llo20cgeu82j92cn9
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276122
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:55:22 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：セッション変数：ofs89jatt5n0atr0pruocc2k1m
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276293
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:58:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：セッション変数：qiuq6tdjecu959oqb2p21unm3c
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276297
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:58:17 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：セッション変数：eivia9hv4shjv4538asfo62clm
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276313
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:58:33 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：「トップページ 
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：セッション変数：7t51vvl7uco0l5lelbpc9bc1rl
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276315
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：商品情報を取得します
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：SQL:SELECT p.id, p.name, p.author_id, p.category_id, p.copy, p.comment, p.price, p.pic1, p.pic2, p.pic3, p.create_date, p.update_date, a.name AS author, c.name AS category
+    FROM product AS p LEFT JOIN author AS a ON p.author_id = a.id LEFT JOIN category AS c ON p.category_id = c.id WHERE category_id = 1 ORDER BY p.id DESC LIMIT 12 OFFSET 0
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：選択中の作り手名を取得します
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：現在選択中の作り手ID:
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：現在のページ：1
+[08-Aug-2019 23:58:35 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：「商品詳細ページ 
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：セッション変数：to6ua5aeuglc5ai71ibn6lhf82
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276327
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：商品情報を取得します。
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：商品ID：21
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：同じ作り手の商品を取得します。
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：作り手ID：104
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 21
+    [name] => 深皿
+    [author_id] => 104
+    [category_id] => 1
+    [copy] => 深皿の商品07のキャッチコピー
+    [comment] => 深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。
+    [price] => 2200
+    [pic1] => uploads/bowl07.jpg
+    [pic2] => 
+    [pic3] => 
+    [author] => 岡本陶器店
+)
+
+[08-Aug-2019 23:58:47 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：「商品詳細ページ 
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：セッション変数：2tsp0741ti4d7rhc59fd1i6bbg
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276330
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：商品情報を取得します。
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：商品ID：21
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：同じ作り手の商品を取得します。
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：作り手ID：104
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：クエリ成功
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 21
+    [name] => 深皿
+    [author_id] => 104
+    [category_id] => 1
+    [copy] => 深皿の商品07のキャッチコピー
+    [comment] => 深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。
+    [price] => 2200
+    [pic1] => uploads/bowl07.jpg
+    [pic2] => 
+    [pic3] => 
+    [author] => 岡本陶器店
+)
+
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：POST送信があります
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：前ページのurlを代入：localhost:8888/vessel04/productDetail.php?c_id=1&p_id=21
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[08-Aug-2019 23:58:50 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/vessel04/productDetail.php on line 45
+[08-Aug-2019 23:58:50 Asia/Tokyo] エラー発生：SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'buy_user' cannot be null
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：「ログインページ 
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：セッション変数：en1e920d47fisashduvjnfrt67
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [return_url] => localhost:8888/vessel04/productDetail.php?c_id=1&p_id=21
+)
+
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276330
+[08-Aug-2019 23:58:50 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：「ログインページ 
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：セッション変数：dl7q4m6frccq3cjm4aj9j1hjja
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [return_url] => localhost:8888/vessel04/productDetail.php?c_id=1&p_id=21
+)
+
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276439
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：POST送信があります。
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：バリデーションOKです。
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$00rdkOz4hAgplNR8e03H/uvbXlhUvtHqkeDF31H.8adTwiH2UfX6G
+    [id] => 1
+)
+
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：パスワードがマッチしました
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません。
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [return_url] => localhost:8888/vessel04/productDetail.php?c_id=1&p_id=21
+    [login_date] => 1565276439
+    [login_limit] => 3600
+    [user_id] => 1
+)
+
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：前のページに戻る：Location: http://localhost:8888/vessel04/productDetail.php?c_id=1&p_id=21
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：前のページのセッション削除：
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：「商品詳細ページ 
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：セッション変数：8pdh9pp5rdt0cv2qf8e8psagjh
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [return_url] => 
+    [login_date] => 1565276439
+    [login_limit] => 3600
+    [user_id] => 1
+)
+
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276439
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ1565280039
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：商品情報を取得します。
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：商品ID：21
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：同じ作り手の商品を取得します。
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：作り手ID：104
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：店舗情報を取得します。
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 21
+    [name] => 深皿
+    [author_id] => 104
+    [category_id] => 1
+    [copy] => 深皿の商品07のキャッチコピー
+    [comment] => 深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。
+    [price] => 2200
+    [pic1] => uploads/bowl07.jpg
+    [pic2] => 
+    [pic3] => 
+    [author] => 岡本陶器店
+)
+
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：ユーザーID：1
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：商品ID：21
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:39 Asia/Tokyo] デバッグ：特に気に入っていません
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：「マイページ 
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：セッション変数：sdhvrfhn9qq875rfrbeqba9d60
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [return_url] => 
+    [login_date] => 1565276439
+    [login_limit] => 3600
+    [user_id] => 1
+)
+
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276443
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ1565280039
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：ログイン済みのユーザーです。
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：自分が購入した商品情報を取得します。
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：ユーザーID:1
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：（顧客）連絡掲示板情報を取得します
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：(顧客用)掲示板データ[$rst]：Array
+(
+    [0] => Array
+        (
+            [id] => 25
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+        )
+
+    [1] => Array
+        (
+            [id] => 26
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+        )
+
+    [2] => Array
+        (
+            [id] => 27
+            [sale_user] => 104
+            [buy_user] => 1
+            [product_id] => 42
+            [author] => 岡本陶器店
+        )
+
+    [3] => Array
+        (
+            [id] => 28
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+        )
+
+    [4] => Array
+        (
+            [id] => 29
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+        )
+
+    [5] => Array
+        (
+            [id] => 30
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+        )
+
+    [6] => Array
+        (
+            [id] => 31
+            [sale_user] => 103
+            [buy_user] => 1
+            [product_id] => 46
+            [author] => 佐藤陶器店
+        )
+
+    [7] => Array
+        (
+            [id] => 32
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 43
+            [author] => 鈴木硝子店
+        )
+
+    [8] => Array
+        (
+            [id] => 33
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+        )
+
+    [9] => Array
+        (
+            [id] => 34
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+        )
+
+)
+
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：自分のお気に入りの情報を取得します。
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：ユーザーID：1
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：取得した購入した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 49
+            [name] => グラスの商品16
+            [price] => 2500
+            [pic1] => uploads/glass16.jpg
+        )
+
+    [1] => Array
+        (
+            [id] => 49
+            [name] => グラスの商品16
+            [price] => 2500
+            [pic1] => uploads/glass16.jpg
+        )
+
+    [2] => Array
+        (
+            [id] => 43
+            [name] => グラスの商品11
+            [price] => 2500
+            [pic1] => uploads/glass11.jpg
+        )
+
+    [3] => Array
+        (
+            [id] => 46
+            [name] => 深皿の商品16
+            [price] => 2800
+            [pic1] => uploads/bowl16.jpg
+        )
+
+    [4] => Array
+        (
+            [id] => 49
+            [name] => グラスの商品16
+            [price] => 2500
+            [pic1] => uploads/glass16.jpg
+        )
+
+    [5] => Array
+        (
+            [id] => 49
+            [name] => グラスの商品16
+            [price] => 2500
+            [pic1] => uploads/glass16.jpg
+        )
+
+    [6] => Array
+        (
+            [id] => 49
+            [name] => グラスの商品16
+            [price] => 2500
+            [pic1] => uploads/glass16.jpg
+        )
+
+    [7] => Array
+        (
+            [id] => 42
+            [name] => 深皿の商品15
+            [price] => 2800
+            [pic1] => uploads/bowl15.jpg
+        )
+
+    [8] => Array
+        (
+            [id] => 49
+            [name] => グラスの商品16
+            [price] => 2500
+            [pic1] => uploads/glass16.jpg
+        )
+
+    [9] => Array
+        (
+            [id] => 49
+            [name] => グラスの商品16
+            [price] => 2500
+            [pic1] => uploads/glass16.jpg
+        )
+
+)
+
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 25
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [send_date] => 2019-08-04 01:24:31
+                            [to_user] => 1
+                            [from_user] => 102
+                            [msg] => ヤッホー
+                            [bord_id] => 25
+                            [delete_flg] => 0
+                            [create_date] => 2019-08-04 01:24:31
+                            [update_date] => 2019-08-04 01:24:31
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 1
+                            [send_date] => 2019-08-04 01:22:03
+                            [to_user] => 102
+                            [from_user] => 1
+                            [msg] => ヤッホー
+                            [bord_id] => 25
+                            [delete_flg] => 0
+                            [create_date] => 2019-08-04 01:22:03
+                            [update_date] => 2019-08-04 01:22:03
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 26
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 4
+                            [send_date] => 2019-08-04 20:08:43
+                            [to_user] => 1
+                            [from_user] => 102
+                            [msg] => いでです
+                            [bord_id] => 26
+                            [delete_flg] => 0
+                            [create_date] => 2019-08-04 20:08:43
+                            [update_date] => 2019-08-04 20:08:43
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 3
+                            [send_date] => 2019-08-04 20:08:33
+                            [to_user] => 1
+                            [from_user] => 102
+                            [msg] => こんにちは
+                            [bord_id] => 26
+                            [delete_flg] => 0
+                            [create_date] => 2019-08-04 20:08:33
+                            [update_date] => 2019-08-04 20:08:33
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 27
+            [sale_user] => 104
+            [buy_user] => 1
+            [product_id] => 42
+            [author] => 岡本陶器店
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 28
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 29
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 30
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 31
+            [sale_user] => 103
+            [buy_user] => 1
+            [product_id] => 46
+            [author] => 佐藤陶器店
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 32
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 43
+            [author] => 鈴木硝子店
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 33
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 34
+            [sale_user] => 102
+            [buy_user] => 1
+            [product_id] => 49
+            [author] => 鈴木硝子店
+            [msg] => Array
+                (
+                )
+
+        )
+
+)
+
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 46
+            [product_id] => 46
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-07-23 01:15:22
+            [update_date] => 2019-08-01 01:01:28
+            [name] => 深皿の商品16
+            [author_id] => 103
+            [category_id] => 1
+            [copy] => 深皿の商品16のキャッチコピー
+            [comment] => 深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。
+            [price] => 2800
+            [pic1] => uploads/bowl16.jpg
+            [pic2] => 
+            [pic3] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 42
+            [product_id] => 42
+            [user_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-07-23 01:15:22
+            [update_date] => 2019-08-01 00:53:09
+            [name] => 深皿の商品15
+            [author_id] => 104
+            [category_id] => 1
+            [copy] => 深皿の商品15のキャッチコピー
+            [comment] => 深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。深皿の本文が入ります。
+            [price] => 2800
+            [pic1] => uploads/bowl15.jpg
+            [pic2] => 
+            [pic3] => 
+        )
+
+)
+
+[09-Aug-2019 00:00:43 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：「プロフィール編集ページ 
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理能力
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：セッション変数：qq63hnhetnfpvivoreu2qsvf2k
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [return_url] => 
+    [login_date] => 1565276443
+    [login_limit] => 3600
+    [user_id] => 1
+)
+
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1565276447
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：ログイン期日日時タイムスタンプ1565280043
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：ログイン済みのユーザーです。
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：クエリ成功
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 1
+    [username] => 井手義夫
+    [age] => 31
+    [tel] => 1760218500
+    [zip] => 370006
+    [addr] => 青森県 五所川原市 松島町 2-19-4
+    [email] => yoshio41037@rybzywtxw.oubk.ee
+    [password] => $2y$10$00rdkOz4hAgplNR8e03H/uvbXlhUvtHqkeDF31H.8adTwiH2UfX6G
+    [pic] => uploads/0ef1ab55123866dacfe67360e4f260170d27066c.png
+    [login_time] => 2019-07-21 12:54:19
+    [delete_flg] => 0
+    [create_date] => 2019-07-21 12:54:19
+    [update_date] => 2019-08-06 17:27:41
+)
+
+[09-Aug-2019 00:00:47 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[16-Aug-2019 21:28:27 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:28:57 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:29:05 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:29:12 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:29:27 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:29:35 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:29:42 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:29:57 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:29:57 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 64
+[16-Aug-2019 21:29:57 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 6
+[16-Aug-2019 21:29:57 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 23
+[16-Aug-2019 21:29:57 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/vessel04/index.php on line 106
+[16-Aug-2019 21:29:57 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 114
+[16-Aug-2019 21:30:05 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:30:12 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:30:15 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:30:30 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:30:35 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:30:35 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 64
+[16-Aug-2019 21:30:35 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 6
+[16-Aug-2019 21:30:35 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 23
+[16-Aug-2019 21:30:35 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/vessel04/index.php on line 106
+[16-Aug-2019 21:30:35 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 114
+[16-Aug-2019 21:30:42 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:30:42 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 64
+[16-Aug-2019 21:30:42 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 6
+[16-Aug-2019 21:30:42 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 23
+[16-Aug-2019 21:30:42 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/vessel04/index.php on line 106
+[16-Aug-2019 21:30:42 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 114
+[16-Aug-2019 21:30:45 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:31:00 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:31:15 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:31:30 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:31:36 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:31:45 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:31:45 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 64
+[16-Aug-2019 21:31:45 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 6
+[16-Aug-2019 21:31:45 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 23
+[16-Aug-2019 21:31:45 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/vessel04/index.php on line 106
+[16-Aug-2019 21:31:45 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 114
+[16-Aug-2019 21:32:00 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:32:00 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 64
+[16-Aug-2019 21:32:00 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 6
+[16-Aug-2019 21:32:00 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 23
+[16-Aug-2019 21:32:00 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/vessel04/index.php on line 106
+[16-Aug-2019 21:32:00 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 114
+[16-Aug-2019 21:32:06 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:32:36 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:33:06 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:33:06 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 64
+[16-Aug-2019 21:33:06 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 6
+[16-Aug-2019 21:33:06 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 23
+[16-Aug-2019 21:33:06 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/vessel04/index.php on line 106
+[16-Aug-2019 21:33:06 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 114
+[16-Aug-2019 21:35:24 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:35:54 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:36:24 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:36:54 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[16-Aug-2019 21:36:54 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 64
+[16-Aug-2019 21:36:54 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 6
+[16-Aug-2019 21:36:54 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 23
+[16-Aug-2019 21:36:54 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/vessel04/index.php on line 106
+[16-Aug-2019 21:36:54 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 114
+[17-Nov-2019 18:59:39 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[17-Nov-2019 19:00:09 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[17-Nov-2019 19:00:39 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[17-Nov-2019 19:01:09 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] Operation timed out
+[17-Nov-2019 19:01:09 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 64
+[17-Nov-2019 19:01:09 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 6
+[17-Nov-2019 19:01:09 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/sidebar_index.php on line 23
+[17-Nov-2019 19:01:09 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/vessel04/index.php on line 106
+[17-Nov-2019 19:01:09 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/vessel04/index.php on line 114
